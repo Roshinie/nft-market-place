@@ -16,7 +16,7 @@ function Market() {
 
   return (
     <div className="page" id="market-page">
-      <h1>Market</h1>
+      <h1>Market Place</h1>
       <div className="cards">
         {cards}
       </div>

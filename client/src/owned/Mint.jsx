@@ -9,7 +9,7 @@ function Mint() {
     <div id="mint">
       <h1>Mint new NFT</h1>
       <input ref={inputRef} placeholder="ipfs://..." />
-      <button onClick={() => void mint(inputRef.current.value)}>Mint</button>
+      <button style={{ padding: '3px', borderRadius: 4, width:'60px'}} onClick={() => void mint(inputRef.current.value)}>Mint</button>
     </div>
   );
 }
